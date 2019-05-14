@@ -1,0 +1,11 @@
+a {
+  text-transform: none !important;
+  text-decoration: none !important;
+  color: #212529 !important;
+}
+
+a:hover {
+  text-transform: none !important;
+  text-decoration: none !important;
+  color: #212529 !important;
+}

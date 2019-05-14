@@ -1,7 +1,15 @@
+//Dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+//Styles
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+//Components
 import App from './App';
+
+//PWA
 import * as serviceWorker from './serviceWorker';
 
 
