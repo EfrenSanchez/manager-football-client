@@ -16,6 +16,9 @@ import {
 //Styles
 import "./NavBar.css";
 
+//Assets
+import Emoji from "../Assets/Emoji";
+
 const NavBar = () => {
   return (
     <Navbar color="light" light expand="md" >
@@ -25,7 +28,7 @@ const NavBar = () => {
         {/* Jugador */}
         <UncontrolledDropdown nav inNavbar className="ml-5">
           <DropdownToggle nav caret>
-           👤 Jugadores
+           <Emoji symbol="👤" label="jugadores"/> Jugadores
           </DropdownToggle>
           <DropdownMenu right>
             
@@ -44,7 +47,9 @@ const NavBar = () => {
             </NavLink>
 
             <DropdownItem divider />
-            <DropdownItem disabled>📊 Estadísticas </DropdownItem>
+            <DropdownItem disabled>
+              <Emoji symbol="📊" label="jugadores" /> Estadísticas
+            </DropdownItem>
 
           </DropdownMenu>
         </UncontrolledDropdown>
@@ -52,7 +57,7 @@ const NavBar = () => {
         {/* Competicion */}
         <UncontrolledDropdown nav inNavbar className="ml-2">
           <DropdownToggle nav caret>
-            ⚽️ Competición
+            <Emoji symbol="⚽" label="jugadores" /> Competición
           </DropdownToggle>
           <DropdownMenu right>
           
@@ -75,7 +80,9 @@ const NavBar = () => {
             </NavLink>
 
             <DropdownItem divider />
-            <DropdownItem disabled>📊 Estadísticas </DropdownItem>
+            <DropdownItem disabled>
+              <Emoji symbol="📊" label="jugadores" /> Estadísticas
+            </DropdownItem>
             
           </DropdownMenu>
         </UncontrolledDropdown>
